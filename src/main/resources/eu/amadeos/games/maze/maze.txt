@@ -1,0 +1,59 @@
+# The maze of Maze, read at start: change it without compiling.
+#
+# One "row" line per row of tiles, a letter per tile:
+#   X wall   . dot   o energizer   _ empty floor   T tunnel (ghosts are slow here)
+#   - the door of the ghosts' house   H inside the house
+# A row without walls at its ends is a tunnel to the other side.
+#
+# Then where everybody starts, in column and row (0, 0 is the top left), and the way they look;
+# the corners the ghosts go to when they scatter (outside the maze is fine: they only aim there);
+# how many seconds after the start each ghost leaves the house; where the fruit appears.
+
+row XXXXXXXXXXXXXXXXXXXXXXXXXXX
+row X............X............X
+row X.XXXX.XXXXX.X.XXXXX.XXXX.X
+row XoXXXX.XXXXX.X.XXXXX.XXXXoX
+row X.XXXX.XXXXX.X.XXXXX.XXXX.X
+row X.........................X
+row X.XXXX.XX.XXXXXXX.XX.XXXX.X
+row X.XXXX.XX.XXXXXXX.XX.XXXX.X
+row X......XX....X....XX......X
+row XXXXXX.XXXXX_X_XXXXX.XXXXXX
+row XXXXXX.XXXXX_X_XXXXX.XXXXXX
+row XXXXXX.XX_________XX.XXXXXX
+row XXXXXX.XX_XXX-XXX_XX.XXXXXX
+row XXXXXX.XX_XHHHHHX_XX.XXXXXX
+row TTTTTT.___XHHHHHX___.TTTTTT
+row XXXXXX.XX_XXXXXXX_XX.XXXXXX
+row XXXXXX.XX_________XX.XXXXXX
+row XXXXXX.XX_XXXXXXX_XX.XXXXXX
+row XXXXXX.XX_XXXXXXX_XX.XXXXXX
+row X............X............X
+row X.XXXX.XXXXX.X.XXXXX.XXXX.X
+row X.XXXX.XXXXX.X.XXXXX.XXXX.X
+row Xo..XX......._.......XX..oX
+row XXX.XX.XX.XXXXXXX.XX.XX.XXX
+row XXX.XX.XX.XXXXXXX.XX.XX.XXX
+row X......XX....X....XX......X
+row X.XXXXXXXXXX.X.XXXXXXXXXX.X
+row X.XXXXXXXXXX.X.XXXXXXXXXX.X
+row X.........................X
+row XXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+muncher 13 22 left
+
+ghost red     13 11 left
+ghost pink    13 14 up
+ghost cyan    11 14 up
+ghost orange  15 14 up
+
+corner red    24 -3
+corner pink    2 -3
+corner cyan   26 31
+corner orange  0 31
+
+release pink    0
+release cyan    5
+release orange 10
+
+fruit 13 16
