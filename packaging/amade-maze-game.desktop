@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=amadeOS Maze
+Name[de]=amadeOS Maze
+Name[fr]=amadeOS Maze
+Name[es]=amadeOS Maze
+Name[it]=amadeOS Maze
+GenericName=Maze Chase Game
+GenericName[de]=Labyrinth-Jagdspiel
+GenericName[fr]=Jeu de poursuite dans un labyrinthe
+GenericName[es]=Juego de persecución en un laberinto
+GenericName[it]=Gioco di inseguimento nel labirinto
+Comment=Eat every dot in the maze while four ghosts hunt you
+Comment[de]=Fressen Sie alle Punkte im Labyrinth, während vier Geister Sie jagen
+Comment[fr]=Mangez toutes les pastilles du labyrinthe pendant que quatre fantômes vous chassent
+Comment[es]=Cómase todos los puntos del laberinto mientras cuatro fantasmas le persiguen
+Comment[it]=Mangia tutti i puntini del labirinto mentre quattro fantasmi ti danno la caccia
+Icon=amade-maze-game
+Exec=/usr/bin/amade-maze-game
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=maze;ghosts;dots;chase;arcade;game;
+StartupNotify=true
