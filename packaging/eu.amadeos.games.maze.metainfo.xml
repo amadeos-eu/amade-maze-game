@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata of amade-maze-game, installed as /usr/share/metainfo/eu.amadeos.games.maze.metainfo.xml.
+     amadeOS Software shows it for the installed package; a repository's appstream-generator reads it too. -->
+<component type="desktop-application">
+  <id>eu.amadeos.games.maze</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>EUPL-1.2</project_license>
+
+  <name>amadeOS Maze</name>
+
+  <summary>Eat every dot in the maze while four ghosts hunt you</summary>
+  <summary xml:lang="de">Jeden Punkt im Labyrinth fressen, während vier Gespenster Sie jagen</summary>
+  <summary xml:lang="fr">Mangez chaque point du labyrinthe pendant que quatre fantômes vous chassent</summary>
+  <summary xml:lang="es">Cómase cada punto del laberinto mientras cuatro fantasmas le persiguen</summary>
+  <summary xml:lang="it">Mangia ogni puntino del labirinto mentre quattro fantasmi ti danno la caccia</summary>
+
+  <description>
+    <p>The classic chase through a maze: eat every dot while four ghosts hunt you, each in its own way. The big dots in the corners turn the tables for a few seconds.</p>
+    <p xml:lang="de">Die klassische Jagd durch ein Labyrinth: Fressen Sie jeden Punkt, während vier Gespenster Sie jagen, jedes auf seine Art. Die großen Punkte in den Ecken drehen den Spieß für ein paar Sekunden um.</p>
+    <p xml:lang="fr">La poursuite classique dans un labyrinthe : mangez chaque point pendant que quatre fantômes vous chassent, chacun à sa manière. Les gros points des coins inversent les rôles pendant quelques secondes.</p>
+    <p xml:lang="es">La clásica persecución por un laberinto: cómase cada punto mientras cuatro fantasmas le persiguen, cada uno a su manera. Los puntos grandes de las esquinas cambian las tornas durante unos segundos.</p>
+    <p xml:lang="it">Il classico inseguimento in un labirinto: mangia ogni puntino mentre quattro fantasmi ti danno la caccia, ognuno a modo suo. I puntini grandi negli angoli ribaltano le parti per qualche secondo.</p>
+    <ul>
+      <li>Fruit for extra points</li>
+      <li xml:lang="de">Obst für Extrapunkte</li>
+      <li xml:lang="fr">Des fruits pour des points en plus</li>
+      <li xml:lang="es">Fruta para puntos extra</li>
+      <li xml:lang="it">Frutta per punti extra</li>
+      <li>The maze is a text file you can change</li>
+      <li xml:lang="de">Das Labyrinth ist eine Textdatei, die Sie ändern können</li>
+      <li xml:lang="fr">Le labyrinthe est un fichier texte modifiable</li>
+      <li xml:lang="es">El laberinto es un archivo de texto que puede cambiar</li>
+      <li xml:lang="it">Il labirinto è un file di testo che puoi modificare</li>
+      <li>Ten best scores; on the title screen the computer plays</li>
+      <li xml:lang="de">Zehn Bestwerte; auf dem Titelbildschirm spielt der Computer</li>
+      <li xml:lang="fr">Dix meilleurs scores ; sur l'écran titre, l'ordinateur joue</li>
+      <li xml:lang="es">Diez mejores puntuaciones; en la pantalla de título juega el ordenador</li>
+      <li xml:lang="it">Dieci punteggi migliori; nella schermata del titolo gioca il computer</li>
+      <li>Built on amade-game-engine; plays on other operating systems as well</li>
+      <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
+      <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
+      <li xml:lang="es">Hecho con amade-game-engine; funciona también en otros sistemas operativos</li>
+      <li xml:lang="it">Costruito su amade-game-engine; funziona anche su altri sistemi operativi</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">amade-maze-game.desktop</launchable>
+  <icon type="stock">amade-maze-game</icon>
+  <categories>
+    <category>Game</category>
+    <category>ArcadeGame</category>
+  </categories>
+
+  <url type="homepage">https://github.com/datazuul/amade-maze-game</url>
+  <url type="bugtracker">https://github.com/datazuul/amade-maze-game/issues</url>
+  <developer id="eu.amadeos">
+    <name>amadeOS Project</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>The ghosts have left their house</caption>
+      <caption xml:lang="de">Die Gespenster haben ihr Haus verlassen</caption>
+      <caption xml:lang="fr">Les fantômes ont quitté leur maison</caption>
+      <caption xml:lang="es">Los fantasmas han salido de su casa</caption>
+      <caption xml:lang="it">I fantasmi sono usciti dalla loro casa</caption>
+      <image>https://raw.githubusercontent.com/datazuul/amade-maze-game/main/docs/screenshots/amade-maze-game.png</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>amade-maze-game</binary>
+  </provides>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">mild</content_attribute>
+  </content_rating>
+</component>
