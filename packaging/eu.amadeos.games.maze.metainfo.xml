@@ -51,8 +51,8 @@
     <category>ArcadeGame</category>
   </categories>
 
-  <url type="homepage">https://github.com/datazuul/amade-maze-game</url>
-  <url type="bugtracker">https://github.com/datazuul/amade-maze-game/issues</url>
+  <url type="homepage">https://github.com/amadeos-eu/amade-maze-game</url>
+  <url type="bugtracker">https://github.com/amadeos-eu/amade-maze-game/issues</url>
   <developer id="eu.amadeos">
     <name>amadeOS Project</name>
   </developer>
@@ -64,7 +64,7 @@
       <caption xml:lang="fr">Les fantômes ont quitté leur maison</caption>
       <caption xml:lang="es">Los fantasmas han salido de su casa</caption>
       <caption xml:lang="it">I fantasmi sono usciti dalla loro casa</caption>
-      <image>https://raw.githubusercontent.com/datazuul/amade-maze-game/main/docs/screenshots/amade-maze-game.png</image>
+      <image>https://raw.githubusercontent.com/amadeos-eu/amade-maze-game/main/docs/screenshots/amade-maze-game.png</image>
     </screenshot>
   </screenshots>
 
