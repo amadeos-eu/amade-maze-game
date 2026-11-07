@@ -5,6 +5,8 @@
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)
 
+![Maze](docs/screenshots/amade-maze-game.png)
+
 ## Playing
 
 - **Enter** or **Space** (or F2) starts a game.
